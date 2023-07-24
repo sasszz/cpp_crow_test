@@ -26,6 +26,7 @@
 		9B7314242A6EF6FA00B57A01 /* crowtest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = crowtest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7314272A6EF6FA00B57A01 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9B73142F2A6EF75F00B57A01 /* crow_all.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crow_all.h; sourceTree = "<group>"; };
+		9B7314302A6EF92000B57A01 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			children = (
 				9B7314272A6EF6FA00B57A01 /* main.cpp */,
 				9B73142F2A6EF75F00B57A01 /* crow_all.h */,
+				9B7314302A6EF92000B57A01 /* README.md */,
 			);
 			path = crowtest;
 			sourceTree = "<group>";
