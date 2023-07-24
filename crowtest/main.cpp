@@ -6,7 +6,6 @@
 //
 
 #include "crow_all.h"
-//#include "crow_all.h"
 
 int main()
 {
@@ -16,6 +15,13 @@ int main()
     CROW_ROUTE(app, "/")([](){
         return "Hello world";
     });
+    
+    CROW_ROUTE(app, "/add/<int>/<int>")
+    ([](int a, int b)
+    {
+        return std::to_string(a+b);
+    });
+    
 
     //set the port, set the app to run on multiple threads, and run the app
     app.port(18080).multithreaded().run();
